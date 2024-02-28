@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding:0;
+    color: #40AD44;
+    background-color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+p{ 
+    font-size: medium;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+
+h1{
+    font-weight:bolder;
+}
+
+h2{
+    font-size: medium;
+    font-weight: 600;
+}
+ 
+h3{
+    font-size: medium;
+    font-weight: 600;
+}
+
+
+#topbar{
+    
+    margin-top: 2%;
+    
+}
+
+#portfolio{
+    margin-left: 8%;
+    margin-right: 22%;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.center{
+    text-decoration: none;
+    margin-right: 3%;
+    font-size: medium;
+}
+
+#main{
+    margin-left: 10%;
+    margin-top: 6%;
+}
+
+#home{
+    line-height: 200%;
+    display: inline-block;
+    margin-right: 30%;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
+    width: 30%;
+
+} 
+
+#image{
+    display: inline-block;
+    margin: 0;
+    padding: 1%;
+    border-color:#40AD44;
+    border-style:dashed ;
+    border-width: 1%;
+    border-radius: 50%;
+   
+    }
+
+    .me{
+        animation: fadeIn 2s infinite;}
+        @keyframes fadeIn {
+            0%{ opacity:0;}
+            50%{ opacity:5;}
+            100%{ opacity:0;}
+    }
+
+img{
+    border-radius: 50%;
+    display: inline-block;
+    height: 350px;
+    margin-top: 0;
+}
+
+button{
+    background-color: #F7F197;
+    
+    color: black;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-weight:500 ;
+    border-radius: 15%;
+    
+
+}
+
+#about{
+    margin-left: 8%;
+    margin-top: 8%;
+    width: 70%;
+}
+
+#work{
+    margin-left: 8%;
+    margin-top: 8%;
+    width: 70%;
+    
+}
+
+#boxes{
+    animation: slideIn 2s infinite;}
+    @keyframes slideIn{
+        0%{transform: translateX(-30%);}
+        50%{transform: translateX(0%);}
+        100%{transform: translateX(30%);}
+    }
+
+#box1{
+    background-color: #282828;
+    margin-top: 5%;
+    padding: 10%;
+    display: inline-block;
+
+}
+
+
+#box2{
+    background-color: #282828;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding: 10%;
+    display: inline-block;
+}
+
+#box3{
+    background-color: #282828;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding: 10%;
+    display: inline-block;
+}
+
+#box4{
+    background-color: #282828;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding: 10%;
+    display: inline-block;
+}
+
+#contact{
+    margin-left: 8%;
+    margin-top: 8%;
+    
+    margin-bottom: 8%;
+    width: 70%;
+}
+
+a{
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+
+
+
