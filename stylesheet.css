@@ -16,17 +16,17 @@ p{
 
 
 h1{
-    font-weight:900;
+    font-weight:bolder;
 }
 
 h2{
-    font-size: 3rem ;
-    font-weight: 600 ;
+    font-size: medium;
+    font-weight: 600;
 }
  
 h3{
-    font-size: 3rem ;
-    font-weight: 600 ;
+    font-size: medium;
+    font-weight: 600;
 }
 
 
