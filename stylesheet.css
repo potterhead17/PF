@@ -11,7 +11,7 @@
 p{ 
     font-size: medium;
     font-weight: 500;
-    line-height: 150%;
+    line-height: 2vw;
 }
 
 
@@ -32,47 +32,47 @@ h3{
 
 #topbar{
     
-    margin-top: 2%;
+    margin-top: 2vw;
     
 }
 
 #portfolio{
-    margin-left: 8%;
-    margin-right: 22%;
+    margin-left: 8vw;
+    margin-right: 22vw;
     font-weight: bolder;
     font-size: larger;
 }
 
 .center{
     text-decoration: none;
-    margin-right: 3%;
+    margin-right: 3vw;
     font-size: medium;
 }
 
 #main{
-    margin-left: 10%;
-    margin-top: 6%;
+    margin-left: 10vw;
+    margin-top: 6vw;
 }
 
 #home{
-    line-height: 200%;
+    line-height: 2vw;
     display: inline-block;
-    margin-right: 30%;
+    margin-right: 30vw;
     margin-bottom: 0;
     margin-top: 0;
     padding-top: 0;
-    width: 30%;
+    width: 25vw;
 
 } 
 
 #image{
     display: inline-block;
     margin: 0;
-    padding: 1%;
+    padding: 1vw;
     border-color:#40AD44;
     border-style:dashed ;
-    border-width: 1%;
-    border-radius: 50%;
+    border-width: 0.1vw;
+    border-radius: 50vw;
    
     }
 
@@ -85,9 +85,9 @@ h3{
     }
 
 img{
-    border-radius: 50%;
+    border-radius: 50vw;
     display: inline-block;
-    height: 350px;
+    height: 28vw;
     margin-top: 0;
 }
 
@@ -95,41 +95,41 @@ button{
     background-color: #F7F197;
     
     color: black;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 3%;
-    padding-right: 3%;
-    font-weight:500 ;
-    border-radius: 15%;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-weight:5vw ;
+    border-radius: 1vw;
     
 
 }
 
 #about{
-    margin-left: 8%;
-    margin-top: 8%;
-    width: 70%;
+    margin-left: 8vw;
+    margin-top: 8vw;
+    width: 70vw;
 }
 
 #work{
-    margin-left: 8%;
-    margin-top: 8%;
-    width: 70%;
+    margin-left: 8vw;
+    margin-top: 8vw;
+    width: 70vw;
     
 }
 
 #boxes{
     animation: slideIn 2s infinite;}
     @keyframes slideIn{
-        0%{transform: translateX(-30%);}
-        50%{transform: translateX(0%);}
-        100%{transform: translateX(30%);}
+        0%{transform: translateX(-20vw);}
+        50%{transform: translateX(0vw);}
+        100%{transform: translateX(20vw);}
     }
 
 #box1{
     background-color: #282828;
-    margin-top: 5%;
-    padding: 10%;
+    margin-top: 3vw;
+    padding: 7vw;
     display: inline-block;
 
 }
@@ -137,41 +137,40 @@ button{
 
 #box2{
     background-color: #282828;
-    margin-top: 5%;
-    margin-left: 5%;
-    padding: 10%;
+    margin-top: 3vw;
+    padding: 7vw;
+    margin-left: 3vw;
     display: inline-block;
 }
 
 #box3{
     background-color: #282828;
-    margin-top: 5%;
-    margin-left: 5%;
-    padding: 10%;
+    margin-top: 3vw;
+    padding: 7vw;
+    margin-left: 3vw;
     display: inline-block;
 }
 
 #box4{
     background-color: #282828;
-    margin-top: 5%;
-    margin-left: 5%;
-    padding: 10%;
+    margin-top: 3vw;
+    padding: 7vw;
+    margin-left: 3vw;
     display: inline-block;
 }
 
 #contact{
-    margin-left: 8%;
-    margin-top: 8%;
-    
-    margin-bottom: 8%;
-    width: 70%;
+    margin-left: 8vw;
+    margin-top: 8vw;
+    margin-bottom: 8vw;
+    width: 70vw;
 }
 
 a{
     text-decoration: none;
     font-size: medium;
     font-weight: 500;
-    line-height: 150%;
+    line-height: 2vw;
 }
 
 
