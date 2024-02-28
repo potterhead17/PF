@@ -10,8 +10,8 @@
 
 p{ 
     font-size: medium;
-    font-weight: 5vw;
-    line-height: 2vw;
+    font-weight: 500;
+    line-height: 2rem;
 }
 
 
@@ -21,58 +21,58 @@ h1{
 
 h2{
     font-size: medium;
-    font-weight: 6vw;
+    font-weight: 600;
 }
  
 h3{
     font-size: medium;
-    font-weight: 6vw;
+    font-weight: 600;
 }
 
 
 #topbar{
     
-    margin-top: 2vw;
+    margin-top: 2rem;
     
 }
 
 #portfolio{
-    margin-left: 8vw;
-    margin-right: 22vw;
+    margin-left: 7rem;
+    margin-right: 17rem;
     font-weight: bolder;
     font-size: larger;
 }
 
 .center{
     text-decoration: none;
-    margin-right: 3vw;
+    margin-right: 3rem;
     font-size: medium;
 }
 
 #main{
-    margin-left: 10vw;
-    margin-top: 6vw;
+    margin-left: 8rem;
+    margin-top: 5rem;
 }
 
 #home{
-    line-height: 2vw;
+    line-height: 1.6rem;
     display: inline-block;
-    margin-right: 30vw;
+    margin-right: 24rem;
     margin-bottom: 0;
     margin-top: 0;
     padding-top: 0;
-    width: 25vw;
+    width: 20rem;
 
 } 
 
 #image{
     display: inline-block;
     margin: 0;
-    padding: 1vw;
+    padding: 1rem;
     border-color:#40AD44;
     border-style:dashed ;
-    border-width: 0.1vw;
-    border-radius: 50vw;
+    border-width: 0.05rem;
+    border-radius: 50rem;
    
     }
 
@@ -85,9 +85,9 @@ h3{
     }
 
 img{
-    border-radius: 50vw;
+    border-radius: 50rem;
     display: inline-block;
-    height: 28vw;
+    height: 23rem;
     margin-top: 0;
 }
 
@@ -95,41 +95,41 @@ button{
     background-color: #F7F197;
     
     color: black;
-    padding-top: 0.5vw;
-    padding-bottom: 0.5vw;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    font-weight:5vw ;
-    border-radius: 1vw;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight:500 ;
+    border-radius: 1rem;
     
 
 }
 
 #about{
-    margin-left: 8vw;
-    margin-top: 8vw;
-    width: 70vw;
+    margin-left: 7rem;
+    margin-top: 7rem;
+    width: 60rem;
 }
 
 #work{
-    margin-left: 8vw;
-    margin-top: 8vw;
-    width: 70vw;
+    margin-left: 7rem;
+    margin-top: 7rem;
+    width: 60rem;
     
 }
 
 #boxes{
     animation: slideIn 2s infinite;}
     @keyframes slideIn{
-        0%{transform: translateX(-20vw);}
-        50%{transform: translateX(0vw);}
-        100%{transform: translateX(20vw);}
+        0%{transform: translateX(-10rem);}
+        50%{transform: translateX(0rem);}
+        100%{transform: translateX(10rem);}
     }
 
 #box1{
     background-color: #282828;
-    margin-top: 3vw;
-    padding: 7vw;
+    margin-top: 3rem;
+    padding: 6rem;
     display: inline-block;
 
 }
@@ -137,40 +137,40 @@ button{
 
 #box2{
     background-color: #282828;
-    margin-top: 3vw;
-    padding: 7vw;
-    margin-left: 3vw;
+    margin-top: 3rem;
+    padding: 6rem;
+    margin-left: 3rem;
     display: inline-block;
 }
 
 #box3{
     background-color: #282828;
-    margin-top: 3vw;
-    padding: 7vw;
-    margin-left: 3vw;
+    margin-top: 3rem;
+    padding: 6rem;
+    margin-left: 3rem;
     display: inline-block;
 }
 
 #box4{
     background-color: #282828;
-    margin-top: 3vw;
-    padding: 7vw;
-    margin-left: 3vw;
+    margin-top: 3rem;
+    padding: 6rem;
+    margin-left: 3rem;
     display: inline-block;
 }
 
 #contact{
-    margin-left: 8vw;
-    margin-top: 8vw;
-    margin-bottom: 8vw;
-    width: 70vw;
+    margin-left: 7rem;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    width: 60rem;
 }
 
 a{
     text-decoration: none;
     font-size: medium;
-    font-weight: 5vw;
-    line-height: 2vw;
+    font-weight: 500;
+    line-height: 1.6rem;
 }
 
 
