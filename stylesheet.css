@@ -21,23 +21,25 @@ h1{
 
 h2{
     font-size: medium;
-    font-weight:normal;
+    
 }
  
 h3{
     font-size: medium;
-    font-weight: normal;
+    
 }
 
 
 #topbar{
     
     margin-top: 2rem;
+    margin-left: 7rem;
+    display: flex;
     
 }
 
 #portfolio{
-    margin-left: 7rem;
+    
     margin-right: 17rem;
     font-weight: bolder;
     font-size: larger;
