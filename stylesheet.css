@@ -21,12 +21,12 @@ h1{
 
 h2{
     font-size: medium;
-    
+   
 }
  
 h3{
     font-size: medium;
-    
+   
 }
 
 
@@ -35,11 +35,12 @@ h3{
     margin-top: 2rem;
     margin-left: 7rem;
     display: flex;
-    
+    flex-direction: row;
+    justify-content: flex-start;
+
 }
 
 #portfolio{
-    
     margin-right: 17rem;
     font-weight: bolder;
     font-size: larger;
@@ -49,21 +50,28 @@ h3{
     text-decoration: none;
     margin-right: 3rem;
     font-size: medium;
+    display: flex;
+    flex-direction: row;
 }
 
 #main{
     margin-left: 8rem;
     margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 #home{
     line-height: 1.6rem;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     margin-right: 24rem;
     margin-bottom: 0;
     margin-top: 0;
     padding-top: 0;
     width: 20rem;
+
 
 } 
 
@@ -75,6 +83,8 @@ h3{
     border-style:dashed ;
     border-width: 0.05rem;
     border-radius: 50rem;
+    height: 23rem;
+    width: 23rem;
    
     }
 
@@ -97,12 +107,13 @@ button{
     background-color: #F7F197;
     
     color: black;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     font-weight:500 ;
     border-radius: 1rem;
+    width: 6rem ;
     
 
 }
