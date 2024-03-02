@@ -33,15 +33,17 @@ h3{
 #topbar{
     
     margin-top: 2rem;
-    margin-left: 7rem;
+    
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    
 
 }
 
 #portfolio{
     margin-right: 17rem;
+    margin-left: 7rem;
     font-weight: bolder;
     font-size: larger;
 }
@@ -55,12 +57,13 @@ h3{
 }
 
 #main{
-    margin-left: 8rem;
+    
     margin-top: 5rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 #home{
@@ -71,7 +74,8 @@ h3{
     margin-bottom: 0;
     margin-top: 0;
     padding-top: 0;
-    width: 20rem;
+    margin-left: 8rem;
+    
 
 
 } 
@@ -121,20 +125,46 @@ button{
 
 }
 
-#about{
-    margin-left: 7rem;
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   
+    
     margin-top: 7rem;
-    width: 60rem;
+
+}
+
+#about{
+    margin-left: 7rem;  
+    
+}
+
+.work{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   
+    
+    margin-top: 7rem;
+
 }
 
 #work{
     margin-left: 7rem;
-    margin-top: 7rem;
-    width: 60rem;
+    
+    
     
 }
 
 #boxes{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: fit-content;
+    
     animation: slideIn 2s infinite;}
     @keyframes slideIn{
         0%{transform: translateX(-10rem);}
@@ -155,7 +185,7 @@ button{
     background-color: #282828;
     margin-top: 3rem;
     padding: 6rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
     display: inline-block;
 }
 
@@ -163,7 +193,7 @@ button{
     background-color: #282828;
     margin-top: 3rem;
     padding: 6rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
     display: inline-block;
 }
 
@@ -171,15 +201,21 @@ button{
     background-color: #282828;
     margin-top: 3rem;
     padding: 6rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
     display: inline-block;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    margin-bottom: 7rem;
+    margin-top: 7rem;
 }
 
 #contact{
     margin-left: 7rem;
-    margin-top: 7rem;
-    margin-bottom: 7rem;
-    width: 60rem;
 }
 
 a{
@@ -188,3 +224,7 @@ a{
     font-weight: 500;
     line-height: 1.6rem;
 }
+
+
+
+
