@@ -128,13 +128,14 @@ button{
     flex-direction: column;
     justify-content: flex-start;
    
-    width: 50rem;
+    
     margin-top: 7rem;
 
 }
 
 #about{
     margin-left: 7rem;  
+    width: 100% ;
    
     
 }
