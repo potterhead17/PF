@@ -226,6 +226,11 @@ a{
     font-weight: 500;
     line-height: 1.6rem;
 }
+@media only screen and (max-width: 767px) {
+    .content {
+        padding: 20px; /* Add padding to the content for better readability */
+    }
+}
 
 
 
