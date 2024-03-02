@@ -135,7 +135,8 @@ button{
 
 #about{
     margin-left: 7rem;  
-    width: 100% ;
+    width: 100vh ;
+    margin-right: 5rem;
    
     
 }
