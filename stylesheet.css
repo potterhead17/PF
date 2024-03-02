@@ -126,16 +126,16 @@ button{
 .about{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
    
     
     margin-top: 7rem;
-    height: 100 vh
+
+}
 
 #about{
     margin-left: 7rem;  
-    
-    
+    width: 100% ;
    
     
 }
@@ -145,7 +145,7 @@ button{
     flex-direction: column;
     justify-content: flex-start;
    
-    
+    width: 100%;
     margin-top: 7rem;
 
 }
@@ -210,7 +210,7 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    
+    width: 100%;
     margin-bottom: 7rem;
     margin-top: 7rem;
 }
@@ -231,7 +231,6 @@ a{
         padding: 20px; /* Add padding to the content for better readability */
     }
 }
-
 
 
 
