@@ -1,4 +1,3 @@
-
 *{
     margin:0;
     padding:0;
@@ -6,12 +5,6 @@
     background-color: black;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     
-}
-@media only screen and (max-width: 800px){
-    .card{
-        width: 90%;
-        height: 90%;
-    }
 }
 
 
@@ -28,30 +21,26 @@ h1{
 
 h2{
     font-size: medium;
-   
+    
 }
  
 h3{
     font-size: medium;
-   
+    
 }
 
 
 #topbar{
     
     margin-top: 2rem;
-    
+    margin-left: 7rem;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: wrap;
     
-
 }
 
 #portfolio{
+    
     margin-right: 17rem;
-    margin-left: 7rem;
     font-weight: bolder;
     font-size: larger;
 }
@@ -60,47 +49,32 @@ h3{
     text-decoration: none;
     margin-right: 3rem;
     font-size: medium;
-    display: flex;
-    flex-direction: row;
 }
 
 #main{
-    
+    margin-left: 8rem;
     margin-top: 5rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    
-    
 }
 
 #home{
     line-height: 1.6rem;
-    display: flex;
-    flex-direction: column;
-    
+    display: inline-block;
+    margin-right: 24rem;
     margin-bottom: 0;
     margin-top: 0;
     padding-top: 0;
-    margin-left: 8rem;
-    
-
+    width: 20rem;
 
 } 
 
 #image{
-    
+    display: inline-block;
     margin: 0;
     padding: 1rem;
     border-color:#40AD44;
     border-style:dashed ;
     border-width: 0.05rem;
     border-radius: 50rem;
-    height: 23rem;
-    width: 23rem;
-    margin-right: 5rem;
-
    
     }
 
@@ -114,7 +88,7 @@ h3{
 
 img{
     border-radius: 50rem;
-    
+    display: inline-block;
     height: 23rem;
     margin-top: 0;
 }
@@ -123,59 +97,30 @@ button{
     background-color: #F7F197;
     
     color: black;
-    padding-top: 0.4rem;
-    padding-bottom: 0.4rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     font-weight:500 ;
     border-radius: 1rem;
-    width: 6rem ;
     
-
-}
-
-.about{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-   
-    
-    margin-top: 7rem;
 
 }
 
 #about{
-    margin-left: 7rem;  
-   
-    
-}
-
-.work{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-   
-    
+    margin-left: 7rem;
     margin-top: 7rem;
-
+    width: 60rem;
 }
 
 #work{
     margin-left: 7rem;
-    
-    
-    
+    margin-top: 7rem;
+    width: 60rem;
     
 }
 
 #boxes{
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-content: flex-start;
-    width: fit-content;
-    
     animation: slideIn 2s infinite;}
     @keyframes slideIn{
         0%{transform: translateX(-10rem);}
@@ -196,7 +141,7 @@ button{
     background-color: #282828;
     margin-top: 3rem;
     padding: 6rem;
-    margin-left: 2rem;
+    margin-left: 3rem;
     display: inline-block;
 }
 
@@ -204,7 +149,7 @@ button{
     background-color: #282828;
     margin-top: 3rem;
     padding: 6rem;
-    margin-left: 2rem;
+    margin-left: 3rem;
     display: inline-block;
 }
 
@@ -212,22 +157,15 @@ button{
     background-color: #282828;
     margin-top: 3rem;
     padding: 6rem;
-    margin-left: 2rem;
+    margin-left: 3rem;
     display: inline-block;
-}
-
-.contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    
-    margin-bottom: 7rem;
-    margin-top: 7rem;
 }
 
 #contact{
     margin-left: 7rem;
-    
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    width: 60rem;
 }
 
 a{
@@ -236,7 +174,3 @@ a{
     font-weight: 500;
     line-height: 1.6rem;
 }
-
-
-
-
