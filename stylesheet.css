@@ -63,6 +63,7 @@ h3{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     
 }
 
@@ -129,8 +130,7 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-   
-    
+    flex-wrap: wrap;
     margin-top: 7rem;
 
 }
