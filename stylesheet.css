@@ -136,7 +136,7 @@ button{
 #about{
     margin-left: 7rem;  
     margin-right: 2rem;
-    width: 100%;
+    width: 70rem;
    
     
 }
@@ -153,8 +153,8 @@ button{
 
 #work{
     margin-left: 7rem;
-    margin-right: 2rem;
     
+    width: 70rem;
     
     
 }
@@ -218,8 +218,7 @@ button{
 
 #contact{
     margin-left: 7rem;
-    margin-right: 2rem;
-    
+    width: 70rem;
 }
 
 a{
