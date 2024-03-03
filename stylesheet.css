@@ -7,15 +7,6 @@
     
 }
 
-body{
-    width: 200%;
-    height: 200%;
-    transform-origin:top left;
-    transform: scale(50%);
-    ;
-
-}
-
 
 p{ 
     font-size: medium;
