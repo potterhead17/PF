@@ -8,6 +8,7 @@
 }
 
 
+
 p{ 
     font-size: medium;
     font-weight: 500;
@@ -29,6 +30,9 @@ h3{
    
 }
 
+body{
+    width: 100vh;
+}
 
 #topbar{
     
@@ -62,8 +66,7 @@ h3{
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    
-    
+    flex-wrap: wrap;
 }
 
 #home{
@@ -89,7 +92,7 @@ h3{
     height: 23rem;
     width: 23rem;
     margin-right: 5rem;
-display: inline-block;
+
    
     }
 
@@ -231,6 +234,5 @@ a{
         padding: 20px; /* Add padding to the content for better readability */
     }
 }
-
 
 
