@@ -62,7 +62,7 @@ h3{
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    flex-wrap: wrap;
+    
     
 }
 
@@ -89,7 +89,7 @@ h3{
     height: 23rem;
     width: 23rem;
     margin-right: 5rem;
-
+display: inline-block;
    
     }
 
