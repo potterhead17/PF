@@ -63,7 +63,7 @@ h3{
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    
+    flex-wrap: wrap;
 }
 
 #home{
