@@ -63,7 +63,7 @@ h3{
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    flex-wrap: wrap;
+    
 }
 
 #home{
@@ -228,7 +228,7 @@ a{
 }
 @media only screen and (max-width: 767px) {
     .content {
-        padding: 20px; /* Add padding to the content for better readability */
+        padding: 20px; 
     }
 }
 
