@@ -18,6 +18,14 @@ p{
 
 h1{
     font-weight:bolder;
+    width: min-content;
+    
+    
+}
+
+#heading{
+    font-weight:bolder;
+    font-size: 5rem;
 }
 
 h2{
@@ -38,6 +46,12 @@ h3{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+
+
+    @media only screen and (max-width: 500px){
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 #portfolio{
@@ -45,15 +59,40 @@ h3{
     margin-left: 7rem;
     font-weight: bolder;
     font-size: larger;
+    @media only screen and (max-width: 500px){
+        margin: 0;
+    }
 }
 
-.center{
-    text-decoration: none;
-    margin-right: 3rem;
-    font-size: medium;
+
+
+#navbar{
     display: flex;
     flex-direction: row;
 }
+
+#p1{
+    text-decoration: none;
+    margin-right: 2rem;
+    font-size: medium;
+    width: min-content;
+}
+
+#p2{
+    text-decoration: none;
+    margin-right: 2rem;
+    font-size: medium;
+    width: min-content;
+}
+
+#p3{
+    text-decoration: none;
+    
+    font-size: medium;
+    width:min-content;
+    
+}
+
 
 #main{
     
@@ -63,6 +102,11 @@ h3{
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    @media only screen and (max-width: 500px){
+        flex-direction: column;
+        align-items: center;
+    }
+    
     
 }
 
@@ -76,6 +120,15 @@ h3{
     padding-top: 0;
     margin-left: 8rem;
     margin-right: 5rem;
+    @media only screen and (max-width: 500px){
+        align-items: center;
+        margin-bottom: 3rem;
+        margin-left: 0;
+        margin-right: 0;
+        #heading{
+            font-size: 3rem;
+        }
+    }
 } 
 
 #image{
@@ -89,6 +142,12 @@ h3{
     height: 23rem;
     width: 23rem;
     margin-right: 5rem;
+    @media only screen and (max-width: 500px){
+        margin: 0;
+        height: 18rem;
+        width: 18rem;
+        
+    }
 
    
     }
@@ -106,6 +165,11 @@ img{
     
     height: 23rem;
     margin-top: 0;
+    @media only screen and (max-width: 500px){
+        margin: 0;
+        height: 18rem;
+        
+    }
 }
 
 button{
@@ -130,13 +194,36 @@ button{
    
     width: 100%;
     margin-top: 7rem;
+    @media only screen and (max-width: 500px){
+        justify-content:center;
+        align-content: center;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        width: 320px;
+        h1{
+            width: 320px;
+            text-align: center;
+        }
+        p{
+            width: 320px;
+            text-align: center;
+        }
+    
+    }
+    
 
 }
+
 
 #about{
     margin-left: 7rem;  
     width: 60rem;
-   
+    @media only screen and (max-width: 500px){
+    margin: 0;
+    width: 320px;
+    
+    
+    }
     
 }
 
@@ -147,6 +234,22 @@ button{
    
     width: 100%;
     margin-top: 7rem;
+    @media only screen and (max-width: 500px){
+        justify-content:center;
+        align-content: center;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        width: 320px;
+        h1{
+            width: 320px;
+            text-align: center;
+        }
+        p{
+            width: 320px;
+            text-align: center;
+        }
+    
+    }
 
 }
 
@@ -154,6 +257,12 @@ button{
     margin-left: 7rem;
     
     width: 60rem;
+    @media only screen and (max-width: 500px){
+        width: fit-content;
+        margin: 0;
+        width: 320px;
+    }
+    
     
     
 }
@@ -165,19 +274,30 @@ button{
     justify-content: flex-start;
     align-content: flex-start;
     width: fit-content;
+    @media only screen and (max-width: 500px){
+        width: 10rem
+    } 
     
     animation: slideIn 2s infinite;}
     @keyframes slideIn{
-        0%{transform: translateX(-10rem);}
+        0%{transform: translateX(-3rem);}
         50%{transform: translateX(0rem);}
-        100%{transform: translateX(10rem);}
+        100%{transform: translateX(3rem);}
+        
     }
+    
 
 #box1{
     background-color: #282828;
     margin-top: 3rem;
     padding: 6rem;
     display: inline-block;
+    @media only screen and (max-width: 500px){
+        padding: 1rem;
+        height: 1rem;
+        width: 1rem;
+        margin: 1rem;
+    }
 
 }
 
@@ -188,6 +308,12 @@ button{
     padding: 6rem;
     margin-left: 2rem;
     display: inline-block;
+    @media only screen and (max-width: 500px){
+        padding: 1rem;
+        height: 1rem;
+        width: 1rem;
+        margin: 1rem;
+    }
 }
 
 #box3{
@@ -196,6 +322,12 @@ button{
     padding: 6rem;
     margin-left: 2rem;
     display: inline-block;
+    @media only screen and (max-width: 500px){
+        padding: 1rem;
+        height: 1rem;
+        width: 1rem;
+        margin: 1rem;
+    }
 }
 
 #box4{
@@ -204,6 +336,12 @@ button{
     padding: 6rem;
     margin-left: 2rem;
     display: inline-block;
+    @media only screen and (max-width: 500px){
+        padding: 1rem;
+        height: 1rem;
+        width: 1rem;
+        margin: 1rem;
+    }
 }
 
 .contact{
@@ -213,11 +351,39 @@ button{
     width: 100%;
     margin-bottom: 7rem;
     margin-top: 7rem;
+    @media only screen and (max-width: 500px){
+        justify-content:center;
+        align-content: center;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        width: 320px;
+        h1{
+            width: 320px;
+            text-align: center;
+        }
+        p{
+            width: 320px;
+            text-align: center;
+        }
+
+        a{
+            width: 320px;
+            text-align: center;  
+            display: inline-block;
+        }
+    
+    }
 }
 
 #contact{
     margin-left: 7rem;
     width: 60rem;
+    @media only screen and (max-width: 500px){
+        width: fit-content;
+        margin: 0;
+        width: 320px;
+    }
+    
 }
 
 a{
